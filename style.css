@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+    background-color: #1137ca;
+}
+
+#page1{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+
+    position: absolute;
+    width: 100vw;
+    height: 9vh;
+    /* background-color: yellow; */
+}
+
+
+#page1>nav>img{
+    width: 9%;
+}
+
+
+.right-nav>button{
+    padding: 12px 18px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-inline: 10px;
+    outline: none;
+    border: 1px solid white;
+    background-color:#0a3cce;
+    color: white;
+    font-weight: bold;
+}
+
+
+.front-article{
+    position: absolute;
+    width: 50vw;
+    height: 40vh;
+    color: white;
+    /* background-color: red; */
+    left: 7%;
+    bottom: 10%;
+    font-family: sans-serif;
+}
+
+.front-article>h1{
+    font-size: 5vw;
+
+}
+
+.sub-para{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10vh;
+    padding: 20px 20px 20px 2px;
+    /* background-color: magenta; */
+}
+
+
+#page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3cce;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0vw 8vw;
+    color: #fff;
+    font-family: sans-serif;
+
+
+}
+
+
+#page2>h2{
+    font-weight: 100;
+    margin-bottom: 2vh;
+}
+
+#page2>h1{
+    width: 90%;
+    font-size: 4vw;
+    line-height: 1.2;
+    color: #dadada66;
+}
+
+#page3{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3cce;
+}
+
+#page3>canvas{
+    max-width: 100;
+    max-height: 100vh;
+    position: relative;
+}
+
+
+#page4{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3cce;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0vw 8vw;
+    color: #fff;
+    font-family: sans-serif;
+
+
+}
+
+
+#page4>h3{
+    font-weight: 100;
+    margin-bottom: 6vh;
+}
+
+#page4>h1{
+    width: 90%;
+    font-size: 3vw;
+    line-height: 1.2;
+    color: #dadada66;
+}
+
+#page6{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0a3cce;
+    color: white;
+    font-family: sans-serif;
+}
+
+#page6>h3{
+    font-weight: 100;
+    font-size: 2vw;
+    margin-bottom: 4vh;
+    margin-left: 9vw;
+
+
+}
+
+#page6>h1{
+    font-size: 4.5vw;
+    margin-left: 9vw;
+    width: 80%;
+    color: #ffffff4d;
+}
+
+
+#page7{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#page>canvas{
+    max-width: 100;
+    max-height: 100vh;
+    position: relative;
+}
+
+
+#page-cir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+#page-inner{
+    width: 12vw;
+    height: 12vw;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #fff;
+
+}
+
+#page8{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #0a3cce;
+
+}
+
+#page8>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page8-text{
+        position: absolute;
+        bottom: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+
+}
+
+#page8-text>h2{
+    font-size: 6vw;
+    margin-bottom: 1.5vw;
+}
+
+#page8-text>button{
+    padding: 12px 24px;
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+}
